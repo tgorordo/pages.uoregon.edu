@@ -1,7 +1,9 @@
 ---
 title: "`tgorordo@uoregon.edu`"
-author: "[Thomas (Tom) C. Gorordo](https://tom.ket.dev)"
+author: "[**Thomas (Tom) C. Gorordo**](https://tom.ket.dev)"
 ---
+
+This page is under construction. Many links do not terminate correctly - check back later!
 
 ## [Publications](https://orcid.org/0009-0001-0342-6205)
 
