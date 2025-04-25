@@ -19,6 +19,7 @@ It's under construction at the moment, so many links do not terminate correctly 
     A fork of [`WignerSymbols.jl`](https://github.com/Jutho/WignerSymbols.jl) adding the Wigner 9j symbols.
 
 - [Carousel](https://github.com/tgorordo/carousel) ([CGI App Form](https://pages.uoregon.edu/tgorordo/forms/carousel)): A stable-matching solver that can e.g. be used to find optimal TA assignments.
+
 ## Course Notes & (Extra) Content
 
 ### Ph. 410/510c - Scientific Computation (Spring 2024)
