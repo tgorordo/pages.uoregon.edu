@@ -1,9 +1,11 @@
 ---
 title: "`tgorordo@uoregon.edu`"
-author: "**Thomas (Tom) C. Gorordo** ([CAS Profile](https://cas.uoregon.edu/directory/profiles/all/tgorordo)) ([Personal Site](https://tom.ket.dev))"
+author: "**Thomas (Tom) C. Gorordo**"
 ---
 
-This page is under construction. Many links do not terminate correctly - check back later!
+Welcome to [my](https://cas.uoregon.edu/directory/profiles/all/tgorordo) academic page! See also my main [personal site](https://tom.ket.dev).
+
+It's under construction at the moment, so many links do not terminate correctly - check back later.
 
 ## [Publications](https://orcid.org/0009-0001-0342-6205)
 
@@ -16,6 +18,7 @@ This page is under construction. Many links do not terminate correctly - check b
 - [`WignerSymbols.jl`](https://github.com/tgorordo/WignerSymbols.jl): 
     A fork of [`WignerSymbols.jl`](https://github.com/Jutho/WignerSymbols.jl) adding the Wigner 9j symbols.
 
+- [Carousel](https://github.com/tgorordo/carousel) ([CGI App Form](https://pages.uoregon.edu/tgorordo/forms/carousel)): A stable-matching solver that can e.g. be used to find optimal TA assignments.
 ## Course Notes & (Extra) Content
 
 ### Ph. 410/510c - Scientific Computation (Spring 2024)
@@ -30,9 +33,6 @@ This page is under construction. Many links do not terminate correctly - check b
 Fun writeups and demos:
 
 - Optics: [Fermat's Principle of Least Time](https://pages.uoregon.edu/tgorordo/uoph252b_Foundations/Fermat.html)
-
-## Misc.
-- [Carousel](https://github.com/tgorordo/carousel) ([CGI App Form](https://pages.uoregon.edu/tgorordo/forms/carousel)): A stable-matching solver that can e.g. be used to find optimal TA assignments.
 
 
 (page [raw pandoc `.md`](https://pages.uoregon.edu/tgorordo/README.md), [github repo](https://github.com/tgorordo/pages.uoregon.edu))
