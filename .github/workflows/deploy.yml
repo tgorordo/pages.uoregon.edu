@@ -3,7 +3,7 @@ name: Deploy to pages.uoregon.edu/tgorordo
 on: push
 
 jobs:
-  pandoc_and_deploy_index:
+  pandoc_index_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -12,11 +12,11 @@ jobs:
         uses: docker://pandoc/core:latest
         with:
           args: "--standalone --output=index.html README.md"
-      - name: SFTP Upload `index.html` to `pages.uoregon.edu/tgorordo` in `~/public_html`
+      - name: SFTP Upload to `pages.uoregon.edu/tgorordo` in `~/public_html`
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: sftp.uoregon.edu
           username: tgorordo
           password: ${{secrets.pages_password}}
-          local_path: ./index.html
-          remote_path: ./public_html/index.html
+          local_path: ./*
+          remote_path: ./public_html
