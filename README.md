@@ -3,7 +3,7 @@ title: "`tgorordo@uoregon.edu`"
 author: "**Thomas (Tom) C. Gorordo**"
 ---
 
-Welcome to [my](https://cas.uoregon.edu/directory/profiles/all/tgorordo) academic page! See also my main [personal site](https://tom.ket.dev).
+Welcome to [my](https://cas.uoregon.edu/directory/profiles/all/tgorordo) academic page! See also my [personal site](https://tom.ket.dev).
 
 It's under construction at the moment, so many links do not terminate correctly - check back later.
 
