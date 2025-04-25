@@ -1,6 +1,6 @@
 ---
 title: "`tgorordo@uoregon.edu`"
-author: "[**Thomas (Tom) C. Gorordo**](https://tom.ket.dev)"
+author: "**Thomas (Tom) C. Gorordo** ([CAS Profile](https://cas.uoregon.edu/directory/profiles/all/tgorordo)) ([Personal Site](https://tom.ket.dev))"
 ---
 
 This page is under construction. Many links do not terminate correctly - check back later!
