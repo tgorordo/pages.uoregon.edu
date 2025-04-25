@@ -3,7 +3,7 @@ name: Deploy to pages.uoregon.edu/tgorordo
 on: push
 
 jobs:
-  convert_via_pandoc:
+  pandoc_and_deploy_index:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

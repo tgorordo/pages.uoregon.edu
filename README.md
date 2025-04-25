@@ -30,3 +30,6 @@ This page is under construction. Many links do not terminate correctly - check b
 Fun writeups and demos:
 
 - Optics: [Fermat's Principle of Least Time](https://pages.uoregon.edu/tgorordo/uoph252b_Foundations/Fermat.html)
+
+## Misc.
+- [Carousel](https://github.com/tgorordo/carousel) ([CGI App Form](https://pages.uoregon.edu/tgorordo/forms/carousel)): A stable-matching solver that can e.g. be used to find optimal TA assignments.
