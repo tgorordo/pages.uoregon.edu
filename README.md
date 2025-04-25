@@ -35,4 +35,4 @@ Fun writeups and demos:
 - [Carousel](https://github.com/tgorordo/carousel) ([CGI App Form](https://pages.uoregon.edu/tgorordo/forms/carousel)): A stable-matching solver that can e.g. be used to find optimal TA assignments.
 
 
-([page pandoc `.md` source](https://pages.uoregon.edu/tgorordo/README.md))
+(page [raw pandoc `.md`](https://pages.uoregon.edu/tgorordo/README.md), [github repo](https://github.com/tgorordo/pages.uoregon.edu))
