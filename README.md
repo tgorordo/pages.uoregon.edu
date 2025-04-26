@@ -1,6 +1,6 @@
 ---
-title: "[`tgorordo@uoregon.edu`](https://pages.uoregon.edu/tgorordo)"
-author: "**Thomas (Tom) C. Gorordo**"
+title: "[`tgorordo@uoregon.edu`](mailto:tgorordo@uoregon.edu)"
+author: "[**Thomas (Tom) C. Gorordo**](https://pages.uoregon.edu/tgorordo)"
 ---
 
 Welcome to [my](https://cas.uoregon.edu/directory/profiles/all/tgorordo) academic page! See also my [personal site](https://tom.ket.dev).
