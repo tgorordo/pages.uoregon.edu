@@ -1,5 +1,5 @@
 ---
-title: "`tgorordo@uoregon.edu`"
+title: "[`tgorordo@uoregon.edu`](https://pages.uoregon.edu/tgorordo)"
 author: "**Thomas (Tom) C. Gorordo**"
 ---
 
