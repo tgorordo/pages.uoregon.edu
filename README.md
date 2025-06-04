@@ -28,6 +28,9 @@ It's under construction at the moment, so many links do not terminate correctly 
 - [Python `venv` setup and management guide](https://pages.uoregon.edu/tgorordo/uoph410-510a_Image-Analysis/venvs.html)
 - [TA Homework Solutions](https://pages.uoregon.edu/tgorordo/uoph410-510a_Image-Analysis/)
 
+### Ph. 444/544 - Intro. BioPhysics (Fall 2023)
+- [TA Homework Solutions](https://pages.uoregon.edu/tgorordo/uoph444-544_BioPhysics/)
+
 ### Ph. 20Xabc and Ph. 25Xabc - Foundations (Various)
 Fun writeups and demos:
 
