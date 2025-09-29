@@ -20,6 +20,9 @@ It's under construction at the moment, so many links do not terminate correctly 
 
 ## Course Notes & (Extra) Content
 
+### Ph. 611 - Theoretical Mechanics (Fall 2025)
+In Progress!
+
 ### Ph. 410/510c - Scientific Computation (Spring 2024)
 - [Scientific Computing Resources List](https://pages.uoregon.edu/tgorordo/uoph410-510c_Sci-Comp/resources.html)
 - [TA Homework Solutions](https://pages.uoregon.edu/tgorordo/uoph410-510c_Sci-Comp/)
