@@ -16,7 +16,7 @@ It's under construction at the moment, so many links do not terminate correctly 
 - [`NRNuclearDMResponses.jl`](https://github.com/tgorordo/NRNuclearDMResponses.jl):
     A package implementing general EFT NR Dark Matter Nuclear Response functions.
 - [`WignerSymbols.jl`](https://github.com/tgorordo/WignerSymbols.jl): 
-    A fork of [`WignerSymbols.jl`](https://github.com/Jutho/WignerSymbols.jl) adding the Wigner 9j symbols.
+    A fork of [`WignerSymbols.jl`](https://github.com/Jutho/WignerSymbols.jl) adding the Wigner 9j symbols (yet to be upstreamed).
 
 ## Course Notes & (Extra) Content
 
