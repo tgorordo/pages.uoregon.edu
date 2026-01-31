@@ -21,7 +21,7 @@ It's under construction at the moment, so many links do not terminate correctly 
 ## Course Notes & (Extra) Content
 
 ### Ph. 611 - Theoretical Mechanics (Fall 2025)
-In Progress!
+- [TA Homework Solutions](https://pages.uoregon.edu/tgorordo/uoph611a_Th-Mechanics/)
 
 ### Ph. 410/510c - Scientific Computation (Spring 2024)
 - [Scientific Computing Resources List](https://pages.uoregon.edu/tgorordo/uoph410-510c_Sci-Comp/resources.html)
@@ -37,6 +37,7 @@ In Progress!
 ### Ph. 20Xabc and Ph. 25Xabc - Foundations (Various)
 Fun writeups and demos:
 
+- Intro: [An Introduction to Vectors and Notations](https://pages.uoregon.edu/tgorordo/uoph251a_Foundations/Vectors.html)
 - Optics: [Fermat's Principle of Least Time](https://pages.uoregon.edu/tgorordo/uoph252b_Foundations/Fermat.html)
 
 ## Misc./Tools
