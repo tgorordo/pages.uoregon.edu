@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Carousel - Stable Matching </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="file"] {
+            margin-bottom: 15px;
+        }
+        input[type="submit"] {
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+<body>
+<h1>Carousel: Stable Matcher - CGI Application Upload</h1>
+
+<div class="form-container">
+    <form action="/files/forms/carousel.cgi" method="POST" enctype="multipart/form-data">
+        <label for="spreadsheet">Upload a preferences spreadsheet (.xlsx, .xls, .csv):</label>
+        <input type="file" id="spreadsheet" name="spreadsheet" accept=".xlsx,.xls,.csv" required>
+        <br>
+        <input type="submit" value="Upload and Match!">
+    </form>
+</div>
+
+<div class="explanation-container">
+
+<h2>About</h2>
+<p>This is an upload form for the <a href="https://github.com/tgorordo/carousel">carousel</a> stable matcher (intended only for small matchings), mainly to help assign UO Physics TAs to classes according to preference. This form uses the <a href="https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=43069">UO pages.uoregon.edu CGI Capability</a>, so the implementation of carousel being invoked can be 
+<a href="https://pages.uoregon.edu/tgorordo/files/carousel/"> inspected here</a>
+and you may also inspect the source of this page to verify that <a href="https://pages.uoregon.edu/tgorordo/files/forms/carousel.cgi">this script<a>  is called to invoke it.
+</p>
+
+<p>The <a href="https://en.wikipedia.org/wiki/Stable_matching_problem">Stable Matching Problem</a>
+(actually the "college admissions" variant of the problem) solved by carousel is to find a
+"stable" set of assignments between courses/roles and TAs. A stable assignment, 
+in this context, is one in which there is no pair of TA and course role
+which would prefer each other to their respective assignment given under the matching.
+This form uses default carousel settings to run a version of the the 
+Gale-Shapley (1962) deferred-acceptance algorithm which finds the stable matching that is 
+optimal for the TA preferences. If other stable solutions are desired, you will need to 
+run carousel as a python application yourself.
+
+<h3>Input: Expected Spreadsheet Format</h3>
+<p>A spreadsheet for matching should be organized as a list of TA assignment preferences
+and a list of course preferences/constraints, i.e. with the following structure:</p>
+    <ul>
+        <li><strong>Column A:</strong> Name (text)</li>
+    </ul>
+
+<h3>Output: Matching Result Format</h3>
+<p>This form will return a matching in the form of </p>
+</div>
+</body>
+<footer>
+  <hr>
+  <p>Author: <a href="https://pages.uoregon.edu/tgorordo">Thomas (Tom) C. Gorordo</a>
+     Source: <a href="https://github.com/tgorordo/pages.uoregon.edu">pages.uoregon.edu/tgorordo</a>,
+             <a href="https://github.com/tgorordo/carousel">carousel</a></p>
+</footer> 
+</html>
