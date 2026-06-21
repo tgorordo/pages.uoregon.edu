@@ -20,7 +20,7 @@ I'm a Physics PhD candidate/[Graduate Student](https://cas.uoregon.edu/directory
 in the [Institute for Fundamental Science (IFS)](https://ifs.uoregon.edu/theory/)
 at the University of Oregon working with [Graham Kribs](https://pages.uoregon.edu/kribs/).
 
-As of May 2026 I am the UO [PhysGrad](https://blogs.uoregon.edu/physgrad/) listmaster - if you need to contact me in that capacity,
+As of May 2026 I am the UO [PhysGrad](https://blogs.uoregon.edu/physgrad/) [listmaster](https://blogs.uoregon.edu/physgrad/leadership-positions/#listMaster) - if you need to contact me in that capacity,
 please do so at [`physgradlist-owner@lists.uoregon.edu`](mailto:physgradlist-owner@lists.uoregon.edu).
 
 I previously held a Research Assistant position at the Lawrence Berkeley National Laboratory (LBNL/LBL)
