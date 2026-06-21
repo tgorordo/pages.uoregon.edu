@@ -5,6 +5,11 @@ import           Hakyll
 
 import Text.Pandoc.Extensions (Extension(..), enableExtension)
 import Text.Pandoc.Options
+import Text.Pandoc (runIO, Pandoc(..), Meta(..), MetaValue(..))
+import Text.Pandoc.Citeproc (processCitations)
+
+import qualified Data.Map as Map
+import qualified Data.Text as T
 
 import System.Process (readCreateProcess, shell, CreateProcess(..))
 import System.FilePath (takeDirectory, takeFileName)
@@ -81,7 +86,7 @@ main = hakyll $ do
 
         compile $ getResourceString
             >>= withItemBody (return . doubleBackslashes)
-            >>= renderPandoc
+            >>= renderPandocWithTransformM readerOpts defaultHakyllWriterOptions citeprocTransform
             >>= loadAndApplyTemplate "templates/post.html" postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -132,5 +137,23 @@ isPublished :: MonadMetadata m => Identifier -> m Bool
 isPublished ident = do
     val <- getMetadataField ident "published"
     return $ fromMaybe False $ fmap (== "true") val
+
+readerOpts :: ReaderOptions
+readerOpts = defaultHakyllReaderOptions
+  { readerExtensions =
+      enableExtension Ext_citations
+        (readerExtensions defaultHakyllReaderOptions)
+  }
+
+citeprocTransform :: Pandoc -> Compiler Pandoc
+citeprocTransform (Pandoc (Meta meta) blocks) = unsafeCompiler $ do
+  let defaults = Map.fromList
+        [ ("csl",                     MetaString (T.pack "files/posts/american-physics-society.csl"))
+        , ("link-citations",          MetaBool True)
+        , ("reference-section-title", MetaString (T.pack "References"))
+        ]
+      meta' = Meta (Map.union meta defaults)
+  result <- runIO (processCitations (Pandoc meta' blocks))
+  either (fail . show) return result
 
 

@@ -1,0 +1,89 @@
+@article{wei9jFormula,
+    author = {Wei, Liqiang},
+    title = {New formula for 9-j symbols and their direct calculation},
+    journal = {Computer in Physics},
+    volume = {12},
+    number = {6},
+    pages = {632-634},
+    year = {1998},
+    month = {11},
+    abstract = {An algebraic expression for 9-j symbols in the form of a summation of the products of binomial coefficients is obtained. An algorithm is also devised to calculate these binomial coefficients recursively. This avoids the evaluation of factorials of integers, which is the main source of overflow in calculation of coupling coefficients for large angular momenta. Thus, the new formula permits accurate calculation of 9-j symbols. In addition, it has higher symmetry and involves only a twofold summation. Therefore, a direct approach for accurate and efficient calculation of 9-j symbols for very large angular momenta is thereby established. © 1998 American Institute of Physics. },
+    issn = {0894-1866},
+    doi = {10.1063/1.168745},
+    url = {https://doi.org/10.1063/1.168745},
+    eprint = {https://pubs.aip.org/aip/cip/article-pdf/12/6/632/7865575/632_1_online.pdf},
+}
+
+
+@article{joforFastEval,
+author = {Johansson, H. T. and Forss\'{e}n, C.},
+title = {Fast and Accurate Evaluation of Wigner 3\$j\$, 6\$j\$, and 9\$j\$ Symbols Using Prime Factorization and Multiword Integer Arithmetic},
+journal = {SIAM Journal on Scientific Computing},
+volume = {38},
+number = {1},
+pages = {A376-A384},
+year = {2016},
+doi = {10.1137/15M1021908},
+URL = {https://doi.org/10.1137/15M1021908},
+eprint = {https://doi.org/10.1137/15M1021908}
+,
+    abstract = { We present an efficient implementation for the evaluation of Wigner \$3j\$, \$6j\$, and \$9j\$ symbols. These represent numerical transformation coefficients that are used in the quantum theory of angular momentum. They can be expressed as sums and square roots of ratios of integers. The integers can be very large due to factorials. We avoid numerical precision loss due to cancellation through the use of multiword integer arithmetic for exact accumulation of all sums. A fixed relative accuracy is maintained as the limited number of floating-point operations in the final step incur rounding errors only in the least significant bits. Time spent to evaluate large multiword integers is in turn reduced by using explicit prime factorization of the ingoing factorials, thereby improving execution speed. Comparison with existing routines shows the efficiency of our approach, and we therefore provide a computer code based on this work. }
+}
+
+
+@article{raschyuEffStorage,
+author = {Rasch, J. and Yu, A. C. H.},
+title = {Efficient Storage Scheme for Precalculated Wigner 3j, 6j and Gaunt Coefficients},
+journal = {SIAM Journal on Scientific Computing},
+volume = {25},
+number = {4},
+pages = {1416-1428},
+year = {2004},
+doi = {10.1137/S1064827503422932},
+URL = {https://doi.org/10.1137/S1064827503422932},
+eprint = {https://doi.org/10.1137/S1064827503422932}
+,
+    abstract = { Efficient storage schemes are presented for storing Clebsch--Gordan, Wigner 3j and 6j symbols, as well as Gaunt coefficients, which are the integral over three spherical harmonics. Use is hereby made of the large number of symmetries which these symbols exhibit. Computer codes have been written and benchmarked against well-known published programs which usually use recursion relations for the evaluation. It is shown that our codes can be an order of magnitude or more faster in execution speed, maintaining full double precision accuracy. }
+}
+
+
+@book{GKPConcreteMathematics2e,
+  added-at = {2016-02-10T11:16:59.000+0100},
+  address = {Reading, MA},
+  author = {Graham, Ronald L. and Knuth, Donald Ervin and Patashnik, Oren},
+  edition = {Second},
+  isbn = {0201558025 9780201558029 0201580438 9780201580433 0201142368 9780201142365},
+  keywords = {discrete.math textbook},
+  publisher = {Addison-Wesley},
+  refid = {29357079},
+  title = {Concrete Mathematics: A Foundation for Computer Science},
+  year = 1994
+}
+
+@article{jahnhope9jSymmetries,
+  title = {Symmetry Properties of the Wigner $9j$ Symbol},
+  author = {Jahn, H. A. and Hope, J.},
+  journal = {Phys. Rev.},
+  volume = {93},
+  issue = {2},
+  pages = {318--321},
+  numpages = {0},
+  year = {1954},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.93.318},
+  url = {https://link.aps.org/doi/10.1103/PhysRev.93.318}
+}
+
+@book{Biedenharn_Louck_1984, place={Cambridge}, series={Encyclopedia of Mathematics and its Applications}, title={The Racah-Wigner Algebra in Quantum Theory}, publisher={Cambridge University Press}, author={Biedenharn, L. C. and Louck, J. D.}, year={1984}, collection={Encyclopedia of Mathematics and its Applications}}
+
+@techreport{osti_4389568,
+  author       = {Schwinger, J},
+  title        = {ON ANGULAR MOMENTUM},
+  institution  = {Harvard Univ.; Nuclear Development Associates, Inc. (US)},
+  annote       = {The commutation relations of an arbitrary angular momentum vector can be reduced to those of the harmonic oscillator. This provides a powerful method for constructing and developing the properties of angular momentum eigenvectors. In this paper many known theorems are derived in this way, and some new results obtained. Among the topics treated are the properties of the rotation matrices; the addition of two, three, and four angular momenta; and the theory of tensor operators.},
+  doi          = {10.2172/4389568},
+  url          = {https://www.osti.gov/biblio/4389568},
+  place        = {United States},
+  year         = {1952},
+  month        = {01}}

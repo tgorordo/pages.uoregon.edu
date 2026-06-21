@@ -1,3 +1,42 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Find all citation links in the text
+  var citeLinks = document.querySelectorAll('a[role="doc-biblioref"]');
+  var firstCite = {};
+
+  citeLinks.forEach(function (link, i) {
+    var href = link.getAttribute("href"); // e.g. "#ref-smith2020"
+    var citekey = href.replace("#", "");
+    var backId = "cite-" + citekey + "-" + i;
+    link.setAttribute("id", backId);
+
+    // Track the first citation for each reference
+    if (!firstCite[citekey]) {
+      firstCite[citekey] = backId;
+    }
+  });
+
+  // Add backlinks to each bibliography entry
+  Object.keys(firstCite).forEach(function (citekey) {
+    var entry = document.getElementById(citekey);
+    if (entry) {
+      var backlink = document.createElement("a");
+      backlink.href = "#" + firstCite[citekey];
+      backlink.textContent = " ↩";
+      backlink.className = "csl-backlink";
+      //entry.appendChild(backlink);
+      //entry.prepend(backlink);
+      var margin = entry.querySelector(".csl-left-margin");
+      if (margin) {
+        margin.appendChild(backlink);
+      } else {
+        entry.prepend(backlink);
+      }
+    }
+  });
+});
+</script>
+
 <article>
     <section class="header">
         Posted on $date$
@@ -8,4 +47,10 @@
     <section>
         $body$
     </section>
+    $if(bibliography)$
+        <div style="text-align: right;">
+            <a href="/$bibliography$">Download Bibliography (.bib)</a>
+        </div>
+    $endif$
 </article>
+

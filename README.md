@@ -21,7 +21,7 @@ in the [Institute for Fundamental Science (IFS)](https://ifs.uoregon.edu/theory/
 at the University of Oregon working with [Graham Kribs](https://pages.uoregon.edu/kribs/).
 
 I previously held a Research Assistant position at the Lawrence Berkeley National Laboratory (LBNL/LBL)
-during 2020-2022, after finishing my undergraduate at the California Institute of Technology (Caltech) in 2019.
+from 2020-2022, after finishing my undergraduate BS in Physics at the California Institute of Technology (Caltech) in 2019.
 
 This site is under-construction at the moment, so a lot of content is missing and links may not terminate correctly - be sure to check back later :)
 
@@ -31,7 +31,6 @@ This site is under-construction at the moment, so a lot of content is missing an
 [INSPIRE: T.Gorordo.1](https://inspirehep.net/authors/2051247)
 
 [ORCID: 0009-0001-0342-6205](https://orcid.org/0009-0001-0342-6205)
-
 
 
 ---
@@ -47,8 +46,10 @@ Selected:
     A fork of [`Jutho/WignerSymbols.jl`](https://github.com/Jutho/WignerSymbols.jl) 
 	adding the Wigner 9j symbols (yet to be upstreamed).
 
-For software collaboration I use the email: [tcgorordo@gmail.com](mailto:tcgorordo@gmail.com) 
-([public PGP key](/files/tgorordo-pub.pgp)).
+Email for software collaboration: [`tgorordo@proton.me`](mailto:tgorordo@proton.me)
+(primary) or [`tcgorordo@gmail.com`](mailto:tcgorordo@gmail.com) (backup/legacy - being phased-out).
+
+GPG key: [` E0ACF8B14679F35EC65934ED29D7C746CC4ED6C1`](/files/tgorordo-pub.asc)
 
 ---
 
@@ -84,6 +85,7 @@ or check the [archive](/archive.html) for more.
 	- TA Solution Sets:
 
 - **UO Ph. 20Xabc and Ph. 25Xabc - Foundations** *(TA Various)*
+    - Introductions: [Working with 3-Vectors](/courses/uoph25X_Foundations/3vectors.pdf) ([`.xopp`](/courses/uoph25X_Foundations/3vectors.xopp)).
     - Optics: [Fun with Fermat's principle of least time](/courses/uoph25X_Foundations/fermat.html).
 
 
@@ -91,7 +93,7 @@ or check the [archive](/archive.html) for more.
 
 ## Misc./Tools
 
-- [`dotfiles`](https://github.com/tgorordo/dots): Various software configurations, managed using [chezmoi](https://www.chezmoi.io/).
-- Templates - [Copier]() project and environment templates: [`copier-python`](https://github.com/tgorordo/copier-python), [`copier-julia`](https://github.com/tgorordo/copier-julia)
-- [`carousel`](https://github.com/tgorordo/carousel) (NONFUNCTIONAL [CGI App Form](/files/forms/carousel.html)):
+- [`smithy`](https://github.com/tgorordo/smithy) ([CGI App Form](/files/smithy/src/cgi/form.html)) a Smith-set solver for RCV ballots that can
+    e.g. be used to check [GSG](https://blogs.uoregon.edu/physicsgsg/) elections.
+- [`carousel`](https://github.com/tgorordo/carousel) (NONFUNCTIONAL [CGI App Form](/files/carousel/src/cgi/form.html)):
     A stable-matching solver that can e.g. be used to find optimal TA assignments.
