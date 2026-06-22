@@ -97,6 +97,6 @@ or check the [archive](/archive.html) for more.
 ## Misc./Tools
 
 - [`smithy`](https://github.com/tgorordo/smithy) ([CGI App Form](/files/smithy/src/cgi/form.html)) a Smith-set solver for RCV ballots that can
-    e.g. be used to check [GSG](https://blogs.uoregon.edu/physicsgsg/) elections.
-- [`carousel`](https://github.com/tgorordo/carousel) (NONFUNCTIONAL [CGI App Form](/files/carousel/src/cgi/form.html)):
+    e.g. be used to check [PhysGrad](https://blogs.uoregon.edu/physgrad/) elections.
+- [`carousel`](https://github.com/tgorordo/carousel) (Under Construction [CGI App Form](/files/carousel/src/cgi/form.html)):
     A stable-matching solver that can e.g. be used to find optimal TA assignments.
